@@ -1,4 +1,4 @@
-import React, { Component, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import './App.css';
 import firebase from 'firebase/app';
@@ -8,8 +8,7 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import Calculations from './Calculations'
-import { render } from 'react-dom';
-import ChatRoom from './Calculations'
+
 
 firebase.initializeApp({
 

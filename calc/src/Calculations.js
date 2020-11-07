@@ -81,18 +81,6 @@ class Calculations extends Component {
 
     render() {
 
-
-        function formValue(props) {
-
-
-
-        }
-
-
-
-
-
-
         return (
 
 
