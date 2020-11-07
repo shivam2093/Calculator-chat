@@ -1,0 +1,75 @@
+.container{
+
+
+margin: 0;
+
+}
+
+
+.result_button{
+
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: center; 
+   font-weight: bold;
+   padding: 0.5em;
+   
+   margin-top: 5%;
+   
+
+}
+
+.result_button > * {
+
+
+}
+
+.calc_box {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    flex: 1;
+    
+ 
+}
+
+.buttons_wrapper{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+row-gap: 20px;
+column-gap: 5%;
+
+
+
+}
+
+
+
+.button_wrapper{
+
+height: 70px;
+width: 70px;
+align-content: center;
+
+
+}
+
+#first{
+
+    height: 90px;
+    width: 90px;
+    font-size: 2em;
+    
+}
+
+
+
+.button_wrapper  button:hover{
+
+    border: 2px solid green;
+    color: hotpink;
+    
+}
